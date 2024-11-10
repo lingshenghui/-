@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>布达拉宫 - 文物展示</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/artifacts.css">
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">首页</a></li>
+            <li><a href="history.html">历史</a></li>
+            <li><a href="architecture.html">建筑</a></li>
+            <li><a href="artifacts.html">文物</a></li>
+            <li><a href="tour.html">导览</a></li>
+            <li><a href="culture.html">文化</a></li>
+            <li><a href="guide.html">指南</a></li>
+            <li><a href="news.html">新闻</a></li>
+            <li><a href="gallery.html">图库</a></li>
+            <li><a href="contact.html">联系</a></li>
+        </ul>
+    </nav>
+
+    <header class="page-header">
+        <h1>文物展示</h1>
+        <div class="category-filter">
+            <button class="filter-btn active" data-category="all">全部</button>
+            <button class="filter-btn" data-category="statue">佛像</button>
+            <button class="filter-btn" data-category="painting">壁画</button>
+            <button class="filter-btn" data-category="ritual">法器</button>
+        </div>
+    </header>
+
+    <main>
+        <div class="artifacts-grid">
+            <div class="artifact-item" data-category="statue">
+                <img src="images/artifact1.jpg" alt="金佛像">
+                <div class="artifact-info">
+                    <h3>金佛像</h3>
+                    <p>清代 铜鎏金</p>
+                    <span class="view-btn">查看详情</span>
+                </div>
+            </div>
+
+            <div class="artifact-item" data-category="painting">
+                <img src="images/artifact2.jpg" alt="唐卡">
+                <div class="artifact-info">
+                    <h3>唐卡壁画</h3>
+                    <p>17世纪 矿物颜料</p>
+                    <span class="view-btn">查看详情</span>
+                </div>
+            </div>
+
+            <div class="artifact-item" data-category="ritual">
+                <img src="images/artifact3.jpg" alt="金刚杵">
+                <div class="artifact-info">
+                    <h3>金刚杵</h3>
+                    <p>明代 纯金打造</p>
+                    <span class="view-btn">查看详情</span>
+                </div>
+            </div>
+
+            <div class="artifact-item" data-category="statue">
+                <img src="images/artifact4.jpg" alt="释迦牟尼像">
+                <div class="artifact-info">
+                    <h3>释迦牟尼像</h3>
+                    <p>元代 铜鎏金</p>
+                    <span class="view-btn">查看详情</span>
+                </div>
+            </div>
+
+            <div class="artifact-item" data-category="painting">
+                <img src="images/artifact5.jpg" alt="曼陀罗图">
+                <div class="artifact-info">
+                    <h3>曼陀罗图</h3>
+                    <p>清代 绢本设色</p>
+                    <span class="view-btn">查看详情</span>
+                </div>
+            </div>
+
+            <div class="artifact-item" data-category="ritual">
+                <img src="images/artifact6.jpg" alt="法轮">
+                <div class="artifact-info">
+                    <h3>八吉祥法轮</h3>
+                    <p>清代 纯银打造</p>
+                    <span class="view-btn">查看详情</span>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div class="artifact-modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <div class="modal-image">
+                <img src="" alt="">
+            </div>
+            <div class="modal-info">
+                <h2></h2>
+                <p class="description"></p>
+                <div class="details">
+                    <p class="era"></p>
+                    <p class="material"></p>
+                    <p class="size"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>版权所有 © 2024 布达拉宫</p>
+    </footer>
+
+    <script src="js/common.js"></script>
+    <script src="js/artifacts.js"></script>
+</body>
+</html> 
