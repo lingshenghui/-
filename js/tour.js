@@ -10,22 +10,22 @@ document.addEventListener('DOMContentLoaded', function() {
         'entrance': {
             title: '正门广场',
             description: '布达拉宫正门广场气势恢宏，是游客参观的第一站。这里可以看到布达拉宫的整体轮廓，感受其雄伟壮观。',
-            images: ['images/tour-entrance.jpg', 'images/tour-entrance-2.jpg', 'images/tour-entrance-3.jpg']
+            images: ['./images/布达拉宫正面全景.webp', './images/布达拉宫全景.webp']
         },
         'white-palace': {
             title: '白宫',
             description: '白宫是布达拉宫的主体建筑，内有达赖喇嘛的冬宫寝宫、会客厅等重要场所。建筑风格独特，装饰华丽。',
-            images: ['images/tour-white-palace.jpg', 'images/tour-white-palace-2.jpg', 'images/tour-white-palace-3.jpg']
+            images: ['./images/白宫.webp', './images/布达拉宫全景.webp']
         },
         'red-palace': {
             title: '红宫',
             description: '红宫主要用于宗教活动，内有众多佛堂和历代达赖喇嘛灵塔，是布达拉宫最神圣的地方。',
-            images: ['images/tour-red-palace.jpg', 'images/tour-red-palace-2.jpg', 'images/tour-red-palace-3.jpg']
+            images: ['./images/红宫.webp', './images/布达拉宫全景.webp']
         },
         'garden': {
             title: '空行母园',
             description: '空行母园是布达拉宫内的一处清幽庭院，环境优美，是历代达赖喇嘛休憩的地方。',
-            images: ['images/tour-garden.jpg', 'images/tour-garden-2.jpg', 'images/tour-garden-3.jpg']
+            images: ['./images/布达拉宫全景.webp']
         }
     };
 
